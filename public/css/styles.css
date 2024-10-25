@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+    margin: 0;
+    
+}
+
+.container {
+    width: 800px;
+    height:100%;
+    margin: 0 auto;
+    background: linear-gradient(to right, 
+        red, orange, yellow, green, indigo, violet);
+    padding: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+.iot-components {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20px;
+    height:100%;
+    width: 100%;
+}
+
+.component {
+    text-align: center;
+    font-weight: bolder;
+}
+
+.component img {
+    display: block;
+    margin: 0 auto;
+    width: 150px;
+}
+
+.led-matrix {
+    width: 200px;
+    height: 100px;
+    background-color: #333;
+    color: lime;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    margin-right: 10px;
+}

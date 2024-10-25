@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IoT Notice Board</title>
+    <link rel="stylesheet" href="/css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>IoT-Based Web Controlled Notice Board</h1>
+
+        <div class="iot-components">
+            <div class="component">
+                <h2>PIC Microcontroller</h2>
+                <img src="https://www.pngall.com/wp-content/uploads/6/Microcontroller-Chip-PNG-HD-Image.png" alt="PIC Microcontroller">
+                <p>Status: <span id="pic-status">Connected</span></p>
+            </div>
+
+            <div class="component">
+                <h2>Wi-Fi Module</h2>
+                <img src="data:image/png;base64,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" alt="Wi-Fi Module">
+                <p>Status: <span id="wifi-status">Connected</span></p>
+            </div>
+
+            <div class="component">
+                <h2>LED Matrix</h2>
+                <div id="led-matrix" class="led-matrix">
+                    <!-- This will show the message sent -->
+                    <span id="display-message">No message</span>
+                </div>
+            </div>
+        </div>
+
+        <form id="messageForm" method="POST" action="/send-message">
+            <label for="message">Enter your message:</label>
+            <input type="text" id="message" name="message" required>
+            <button type="submit">Send Message</button>
+        </form>
+    </div>
+
+    <script src="/js/main.js"></script>
+</body>
+</html>
