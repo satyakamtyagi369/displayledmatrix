@@ -10,12 +10,15 @@ body {
     width: 800px;
     height:100%;
     margin: 0 auto;
-    background: linear-gradient(to right, 
-        red, orange, yellow, green, indigo, violet);
+    background: linear-gradient(to bottom, 
+        orange, white, green);
     padding: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
-
+.ring{
+    border-radius: 50%;
+    border:0.16rem solid indigo;
+}
 h1 {
     text-align: center;
 }
